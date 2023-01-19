@@ -183,21 +183,21 @@ function getCategoryAndId(title, link) {
         id = id[1]; // string
       }
       break;
-    case '读过':
-      res = CATEGORY.book;
-      id = link.match(/book\.douban\.com\/subject\/(\d+)\/?/);
-      id = id[1]; // string
-      break;
-    case '听过':
-      res = CATEGORY.music;
-      id = link.match(/music\.douban\.com\/subject\/(\d+)\/?/);
-      id = id[1]; // string
-      break;
-    case '玩过':
-      res = CATEGORY.game;
-      id = link.match(/www\.douban\.com\/game\/(\d+)\/?/);
-      id = id[1]; // string
-      break;
+//     case '读过':
+//       res = CATEGORY.book;
+//       id = link.match(/book\.douban\.com\/subject\/(\d+)\/?/);
+//       id = id[1]; // string
+//       break;
+//     case '听过':
+//       res = CATEGORY.music;
+//       id = link.match(/music\.douban\.com\/subject\/(\d+)\/?/);
+//       id = id[1]; // string
+//       break;
+//     case '玩过':
+//       res = CATEGORY.game;
+//       id = link.match(/www\.douban\.com\/game\/(\d+)\/?/);
+//       id = id[1]; // string
+//       break;
     default:
       break;
   }
